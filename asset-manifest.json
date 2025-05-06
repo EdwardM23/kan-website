@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kan-website/static/css/main.e3fd63e0.css",
+    "main.js": "/kan-website/static/js/main.2f0035b3.js",
+    "static/js/453.4e6772d2.chunk.js": "/kan-website/static/js/453.4e6772d2.chunk.js",
+    "index.html": "/kan-website/index.html",
+    "main.e3fd63e0.css.map": "/kan-website/static/css/main.e3fd63e0.css.map",
+    "main.2f0035b3.js.map": "/kan-website/static/js/main.2f0035b3.js.map",
+    "453.4e6772d2.chunk.js.map": "/kan-website/static/js/453.4e6772d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3fd63e0.css",
+    "static/js/main.2f0035b3.js"
+  ]
+}
