@@ -1,0 +1,34 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "Chatime",
+      "logo": "https://placehold.co/600x200"
+    },
+    {
+      "id": 2,
+      "name": "Starbucks",
+      "logo": "https://placehold.co/600x200"
+    },
+    {
+      "id": 3,
+      "name": "footlocker",
+      "logo": "https://placehold.co/600x200"
+    },
+    {
+      "id": 4,
+      "name": "madam tan",
+      "logo": "https://placehold.co/600x200"
+    },
+    {
+      "id": 5,
+      "name": "muji",
+      "logo": "https://placehold.co/600x200"
+    },
+    {
+      "id": 6,
+      "name": "payless",
+      "logo": "https://placehold.co/600x200"
+    }    
+  ]
+} 
