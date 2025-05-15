@@ -6,7 +6,7 @@ function Footer() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between">
             {/* Left side - Logo and Social Media */}
-            <div className="md:w-1/3 mb-8 md:mb-0">
+            <div className="md:w-1/4 mb-8 md:mb-0">
               <div className="mb-8">
                 <h2 className="text-2xl font-bold">KAN</h2>
                 <p className="text-gray-400 mt-4">Building dreams into reality</p>
@@ -35,19 +35,9 @@ function Footer() {
             </div>
 
             {/* Right side - Other sections */}
-            <div className="md:w-2/3 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="md:w-1/3 grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
               <div>
-                <h3 className="text-xl font-bold mb-4">Contact</h3>
-                <ul className="text-gray-400">
-                  <li className="mb-2">123 Construction Ave</li>
-                  <li className="mb-2">Singapore 123456</li>
-                  <li className="mb-2">Phone: (65) 1234-5678</li>
-                  <li className="mb-2">Email: info@construction.com</li>
-                </ul>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-bold mb-4">Services</h3>
+                <h3 className="text-xl mb-4 text-red-500">Services</h3>
                 <ul className="text-gray-400">
                   <li className="mb-2">Interior Design</li>
                   <li className="mb-2">General Construction</li>
@@ -57,7 +47,7 @@ function Footer() {
               </div>
 
               <div>
-                <h3 className="text-xl font-bold mb-4">Quick Links</h3>
+                <h3 className="text-xl mb-4 text-red-500">Quick Links</h3>
                 <ul className="text-gray-400">
                   <li className="mb-2">About Us</li>
                   <li className="mb-2">Projects</li>
