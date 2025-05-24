@@ -9,7 +9,7 @@ function Footer() {
             <div className="md:w-1/4 mb-8 md:mb-0">
               <div className="mb-8">
                 <h2 className="text-2xl font-bold">KAN</h2>
-                <p className="text-gray-400 mt-4">Building dreams into reality</p>
+                <p className="text-gray-400 mt-4">Transform your dreams into reality!</p>
               </div>
               
               <div className="flex space-x-4">

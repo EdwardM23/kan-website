@@ -19,10 +19,10 @@ function App() {
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-start p-16">
             <div className="text-left text-white">
               <h1 className="text-5xl font-bold mb-4">Karya Artistika Nusa Indo</h1>
-              <p className="text-xl mb-8">Build your dreams.</p>
+              <p className="text-xl mb-8">Transform your dreams into reality!</p>
               <div className="bg-white/40 backdrop-blur-xl p-6 rounded-2xl mb-6 max-w-lg absolute bottom-16 left-16">
                 <p className="text-lg mb-8 max-w-2xl text-black">
-                  We specialize in creating stunning retail spaces, commercial interiors, and hospitality environments. With over 15 years of experience, our team delivers exceptional craftsmanship and innovative design solutions that transform your vision into reality.
+                  We Deliver exceptional work and craftsmanship tailored to your needs, let’s build your extraordinary vision into reality together!
                 </p>
                 <button 
                   className="bg-white text-black px-8 py-3 rounded-lg font-medium 
@@ -62,7 +62,7 @@ function App() {
           <div className="flex flex-col md:flex-row gap-8">
             <div className="md:w-2/3">
               <p className="text-gray-700 text-lg leading-relaxed">
-                At Karya Artistika Nusa Indo, we take pride in delivering exceptional projects that transform spaces and exceed expectations. Our portfolio spans across retail, commercial, and hospitality sectors, showcasing our commitment to quality craftsmanship and innovative design solutions. Each project reflects our dedication to creating functional and aesthetically pleasing environments that align with our clients' vision.
+                At Karya Artistika Nusaindo, we take heart in delivering impactful solutions that shape your visions. Each project reflects our commitment to creativity, excellence, and discipline, explore our portofolio to see how we have transformed our client’s visions into reality.
               </p>
             </div>
             <div className="md:w-1/3 flex items-center justify-end">
@@ -108,7 +108,7 @@ function App() {
                     icon.classList.toggle('rotate-180');
                   }}
                 >
-                  <span className="font-semibold">Interior Fitout</span>
+                  <span className="font-semibold">Fit Out (Commercial & Retail Spaces)</span>
                   <div className="h-[2px] bg-red-500 flex-grow mx-2"></div>
                   <svg id="interior-icon" className="w-6 h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -119,7 +119,7 @@ function App() {
                   className="max-h-0 overflow-hidden transition-all duration-300 ease-in-out rounded-b-lg"
                 >
                   <p className="p-6 text-gray-700">
-                    Our interior design services combine creativity with functionality to create spaces that reflect your vision and meet your needs. From concept development to final execution, we ensure every detail is perfectly crafted.
+                    Transforming empty shells and spaces into functional environments, we specialize in turnkey interior fit outs for malls, offices, and retail spaces. 
                   </p>
                 </div>
               </div>
@@ -146,7 +146,7 @@ function App() {
                   className="max-h-0 overflow-hidden transition-all duration-300 ease-in-out rounded-b-lg"
                 >
                   <p className="p-6 text-gray-700">
-                    With our experienced team of construction professionals, we handle projects of all sizes with precision and expertise. We maintain the highest standards of quality while ensuring timely completion and cost efficiency.
+                    Our team created harmonious, user-centric spaces through 3D visualization, space planning, material curation, furniture coordination, and lighting design.
                   </p>
                 </div>
               </div>
@@ -173,7 +173,7 @@ function App() {
                   className="max-h-0 overflow-hidden transition-all duration-300 ease-in-out rounded-b-lg"
                 >
                   <p className="p-6 text-gray-700">
-                    Transform your existing space with our renovation services. We specialize in modernizing and revitalizing spaces while preserving their unique character and maximizing their potential.
+                    From commercial buildings, large scale projects, and residential, we build almost anything. 
                   </p>
                 </div>
               </div>
