@@ -18,7 +18,7 @@ function AboutUs() {
                 </span>
             </div>
             <div className="space-y-4">
-                <h1 className="text-4xl font-bold">{companyProfile.title}</h1>
+                <h1 className="text-3xl font-bold">{companyProfile.title}</h1>
                 <div className="leading-relaxed space-y-4">
                     {companyProfile.description.map((paragraph, index) => (
                         <p key={index}>{paragraph}</p>
@@ -28,7 +28,7 @@ function AboutUs() {
         </div>
 
         {/* Image Separator */}
-        <div className="grid grid-cols-3 gap-6 mt-8">
+        <div className="grid grid-cols-3 gap-6 mt-4">
             <div className="col-span-1">
                 <img 
                     src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg" 
@@ -111,23 +111,22 @@ function AboutUs() {
 
     </div>
       {/* Contact Redirect Section */}
-      <div className="py-16 bg-gray-50">
+      <div className="py-8 md:py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between">
-            <h2 className="text-3xl font-semibold">Interested in a collaboration?</h2>
+          <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
+            <h2 className="text-2xl md:text-3xl font-semibold text-center md:text-left">Interested in a collaboration?</h2>
             <a 
               href="/contact"
-              className="inline-block bg-black text-white px-8 py-3 rounded-lg font-medium
-                        transform transition-all duration-300
-                        hover:scale-105 hover:shadow-lg
-                        active:scale-95 active:shadow-md"
+              className="w-full md:w-auto inline-block bg-black text-white px-6 md:px-8 py-3 rounded-lg font-medium
+                      transform transition-all duration-300 text-center
+                      hover:scale-105 hover:shadow-lg
+                      active:scale-95 active:shadow-md"
             >
               Contact Us →
             </a>
           </div>
         </div>
       </div>
-
     </div>
   );
 }
