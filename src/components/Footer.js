@@ -1,3 +1,6 @@
+import logo from './../assets/images/logo.jpeg';
+
+
 function Footer() {
   return (
     <>
@@ -8,7 +11,13 @@ function Footer() {
             {/* Left side - Logo and Social Media */}
             <div className="md:w-1/4 mb-8 md:mb-0">
               <div className="mb-8">
-                <h2 className="text-2xl font-bold">KAN</h2>
+                <h2 className="text-2xl font-bold">
+                <img 
+            src={logo} 
+            alt="KAN Logo" 
+            className={`h-12 w-auto transition-opacity duration-300`}
+          />
+                </h2>
                 <p className="text-gray-400 mt-4">Transform your dreams into reality!</p>
               </div>
               
