@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/kan-website/static/css/main.e3fd63e0.css",
-    "main.js": "/kan-website/static/js/main.2f0035b3.js",
+    "main.css": "/kan-website/static/css/main.c7832b15.css",
+    "main.js": "/kan-website/static/js/main.19037d9c.js",
     "static/js/453.4e6772d2.chunk.js": "/kan-website/static/js/453.4e6772d2.chunk.js",
+    "static/media/logo.jpeg": "/kan-website/static/media/logo.a1a2afc3b091bbd7c0f8.jpeg",
     "index.html": "/kan-website/index.html",
-    "main.e3fd63e0.css.map": "/kan-website/static/css/main.e3fd63e0.css.map",
-    "main.2f0035b3.js.map": "/kan-website/static/js/main.2f0035b3.js.map",
+    "main.c7832b15.css.map": "/kan-website/static/css/main.c7832b15.css.map",
+    "main.19037d9c.js.map": "/kan-website/static/js/main.19037d9c.js.map",
     "453.4e6772d2.chunk.js.map": "/kan-website/static/js/453.4e6772d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3fd63e0.css",
-    "static/js/main.2f0035b3.js"
+    "static/css/main.c7832b15.css",
+    "static/js/main.19037d9c.js"
   ]
 }
