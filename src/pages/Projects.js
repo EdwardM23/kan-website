@@ -1,8 +1,13 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { projectData } from './data/projects';
+import { projectData } from '../data/projects';
+import { useLanguage } from '../context/LanguageContext';
+import { translations as enTranslations } from '../translations/en';
+import { translations as idTranslations } from '../translations/id';
 
 function Projects() {
+    const { language } = useLanguage();
+    const translations = language === 'en' ? enTranslations : idTranslations;
     const project = Object.values(projectData)[0];
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const [currentPage, setCurrentPage] = useState(1);
@@ -44,9 +49,9 @@ function Projects() {
                         </span>
                     </div>
                     <div className="space-y-4">
-                        <h1 className="text-4xl font-bold">Recent Projects</h1>
+                        <h1 className="text-4xl font-bold">{translations.projects.title}</h1>
                         <p className="text-lg text-gray-700 leading-relaxed">
-                            We have worked and shown our tireless commitment through our work, our recent projects demonstrate how 5 years of  hard work and discipline translate into magnificent results, here  are our recent projects!
+                            {translations.projects.description}
                         </p>
                     </div>
                 </div>
@@ -117,14 +122,11 @@ function Projects() {
                             ))}
                         </div>
                     </div>
-                    {/* Scroll Indicators */}
-                    {/* <div className="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-white to-transparent pointer-events-none"></div>
-                    <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-white to-transparent pointer-events-none"></div> */}
                 </div>
                 <div className="mb-16">
-                    <h2 className="text-3xl font-bold mb-6">Previous Projects</h2>
+                    <h2 className="text-3xl font-bold mb-6">{translations.projects.previousProjects.title}</h2>
                     <p className="text-lg text-gray-700 leading-relaxed mb-8">
-                        Our portfolio showcases a diverse range of successful projects that highlight our expertise and commitment to excellence. From residential renovations to commercial developments, each project represents our dedication to quality craftsmanship and innovative design solutions.
+                        {translations.projects.previousProjects.description}
                     </p>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {currentProjects.map(([id, project]) => (

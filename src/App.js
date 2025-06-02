@@ -3,7 +3,7 @@ import clientsData from './data/clients.json';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import { Routes, Route } from 'react-router-dom';
-import Projects from './Projects';
+import Projects from './pages/Projects';
 import ProjectDetail from './pages/ProjectDetail';
 import AboutUs from './pages/AboutUs';
 import { LanguageProvider } from './context/LanguageContext';

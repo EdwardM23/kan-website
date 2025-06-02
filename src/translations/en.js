@@ -16,7 +16,11 @@ export const translations = {
   },
   projects: {
     title: "Our Projects",
-    description: "At Karya Artistika Nusaindo, we take heart in delivering impactful solutions that shape your visions. Each project reflects our commitment to creativity, excellence, and discipline, explore our portofolio to see how we have transformed our client's visions into reality.",
+    description: "We have worked and shown our tireless commitment through our work, our recent projects demonstrate how 5 years of hard work and discipline translate into magnificent results, here are our recent projects!",
+    previousProjects: {
+      title: "Previous Projects",
+      description: "Our portfolio showcases a diverse range of successful projects that highlight our expertise and commitment to excellence. From residential renovations to commercial developments, each project represents our dedication to quality craftsmanship and innovative design solutions."
+    },
     viewAll: "View all projects →"
   },
   services: {
@@ -36,5 +40,76 @@ export const translations = {
   },
   footer: {
     tagline: "Transform your dreams into reality!"
+  },
+  aboutUs: {
+    companyProfile: {
+      title: "Company Profile",
+      description: [
+        "PT. Karya Artistika Nusaindo is a dynamic, disciplined, and innovative contracting firm specializing in Interior Fit Out, Interior Design, and General Construction Services. Founded in June 2020 by three passionate professionals in Tangerang. Started as a small team that focused solely on Interior Fit Out and limited radius of work range.",
+        "Through dedication, quality commitment, and willingness to grow, PT. Karya Artistika Nusaindo have expanded their services to meet the growing demands of clients. Today, PT. Karya Artistika Nusaindo blends creativity, timeless design, and technical precision to deliver more services and end-to-end construction solutions."
+      ]
+    },
+    journey: {
+      title: "Our Journey",
+      items: [
+        {
+          year: "2020",
+          description: "Founded in Tangerang as a small team that specialized in interior fit out, which focused on local projects with desire to grow and learn."
+        },
+        {
+          year: "2020 - 2023",
+          description: "Expanded our services and our team to include interior design and started to take major projects"
+        },
+        {
+          year: "2024 - Present",
+          description: "Evolved into a full service general construction firm, delivering excellent solutions nationwide, and trusted as a humble yet impactful construction firm"
+        }
+      ]
+    },
+    values: {
+      title: "Our Values",
+      items: [
+        {
+          title: "Vision",
+          points: [
+            "To be a trusted leader in construction and design, transforming spaces with innovation, creativity, and reliability."
+          ]
+        },
+        {
+          title: "Mission",
+          points: [
+            "Deliver high-quality constructing solutions",
+            "Continuously improve skills and technology to stay ahead in the industry",
+            "Foster long term client relationship",
+            "Provides beautiful or robust designs",
+            "Deadline and goal oriented"
+          ]
+        }
+      ]
+    },
+    management: {
+      title: "Management",
+      members: [
+        {
+          name: "Tazim Samzir",
+          position: "President Director",
+          description: "With decades of experience and unwavering dedication to the construction industry, he leads the company's strategic vision with integrity, innovation, and a relentless commitment to excellence."
+        },
+        {
+          name: "Andreas Prabowo",
+          position: "Director",
+          description: "Andreas Prabowo brings a unique blend of artistic vision and technical expertise to PT. Karta Artistika Nusaindo. As Director he oversees the company's creative and operational execution, ensuring that every project and activities harmonizes functionality with aesthetic brilliance."
+        },
+        {
+          name: "Suriyanto",
+          position: "Commissioner",
+          description: "Provides strategic oversight and governance to ensure the company's long term vision, mission, and values align with the work execution and innovation."
+        }
+      ]
+    },
+    contact: {
+      title: "Interested in a collaboration?",
+      button: "Contact Us →"
+    }
   }
 }; 
