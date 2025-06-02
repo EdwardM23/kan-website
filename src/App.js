@@ -25,22 +25,24 @@ function HomePage() {
             backgroundImage: "url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80')"
           }}
         >
-          <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-start p-16">
-            <div className="text-left text-white">
-              <h1 className="text-5xl font-bold mb-4">{translations.hero.title}</h1>
-              <p className="text-xl mb-8">{translations.hero.subtitle}</p>
-              <div className="bg-white/40 backdrop-blur-xl p-6 rounded-2xl mb-6 max-w-lg absolute bottom-16 left-16">
-                <p className="text-lg mb-8 max-w-2xl text-black">
-                  {translations.hero.description}
-                </p>
-                <button 
-                  className="bg-white text-black px-8 py-3 rounded-lg font-medium 
-                            transform transition-all duration-300 
-                            hover:scale-105 hover:shadow-lg 
-                            active:scale-95 active:shadow-md"
-                >
-                  {translations.hero.contactButton}
-                </button>
+          <div className="absolute inset-0 bg-black bg-opacity-50">
+            <div className="container mx-auto px-4 h-full flex items-end pb-16">
+              <div className="text-left text-white">
+                <h1 className="text-5xl font-bold mb-4">{translations.hero.title}</h1>
+                <p className="text-xl mb-8">{translations.hero.subtitle}</p>
+                <div className="bg-white/40 backdrop-blur-xl p-6 rounded-2xl mb-6 max-w-lg">
+                  <p className="text-lg mb-8 max-w-2xl text-black">
+                    {translations.hero.description}
+                  </p>
+                  <button 
+                    className="bg-white text-black px-8 py-3 rounded-lg font-medium 
+                              transform transition-all duration-300 
+                              hover:scale-105 hover:shadow-lg 
+                              active:scale-95 active:shadow-md"
+                  >
+                    {translations.hero.contactButton}
+                  </button>
+                </div>
               </div>
             </div>
           </div>
