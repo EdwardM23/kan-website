@@ -12,6 +12,7 @@ function Projects() {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const [currentPage, setCurrentPage] = useState(1);
     const [imageLoadError, setImageLoadError] = useState({});
+    const [imagesLoaded, setImagesLoaded] = useState({});
     const projectsPerPage = 6;
 
     // Calculate pagination
@@ -24,6 +25,13 @@ function Projects() {
 
     const handleImageError = (imagePath) => {
         setImageLoadError(prev => ({
+            ...prev,
+            [imagePath]: true
+        }));
+    };
+
+    const handleImageLoad = (imagePath) => {
+        setImagesLoaded(prev => ({
             ...prev,
             [imagePath]: true
         }));
@@ -60,12 +68,23 @@ function Projects() {
                         <div className="flex transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${currentImageIndex * 100}%)` }}>
                             {project.images?.map((image, index) => (
                                 <div key={index} className="w-full flex-shrink-0">
-                                    <img 
-                                        src={image}
-                                        alt={`${project.title} - Image ${index + 1}`}
-                                        className="w-full h-96 object-cover"
-                                        onError={() => handleImageError(image)}
-                                    />
+                                    <div className="relative w-full h-96 bg-gray-100">
+                                        <img 
+                                            src={image}
+                                            alt={`${project.title} - Image ${index + 1}`}
+                                            className={`w-full h-96 object-cover transition-opacity duration-300 ${
+                                                imagesLoaded[image] ? 'opacity-100' : 'opacity-0'
+                                            }`}
+                                            onError={() => handleImageError(image)}
+                                            onLoad={() => handleImageLoad(image)}
+                                            loading={index === 0 ? "eager" : "lazy"}
+                                        />
+                                        {!imagesLoaded[image] && (
+                                            <div className="absolute inset-0 flex items-center justify-center">
+                                                <div className="w-8 h-8 border-4 border-red-500 border-t-transparent rounded-full animate-spin"></div>
+                                            </div>
+                                        )}
+                                    </div>
                                 </div>
                             ))}
                         </div>
@@ -112,12 +131,23 @@ function Projects() {
                                     className={`relative group overflow-hidden rounded-lg transition-all duration-300 flex-shrink-0`}
                                     style={{ width: '200px' }}
                                 >
-                                    <img 
-                                        src={image}
-                                        alt={`${project.title} - Thumbnail ${index + 1}`}
-                                        className="w-full h-32 object-cover transition-transform duration-300 group-hover:scale-105"
-                                        onError={() => handleImageError(image)}
-                                    />
+                                    <div className="relative w-[200px] h-32 bg-gray-100">
+                                        <img 
+                                            src={image}
+                                            alt={`${project.title} - Thumbnail ${index + 1}`}
+                                            className={`w-full h-32 object-cover transition-all duration-300 ${
+                                                imagesLoaded[image] ? 'opacity-100' : 'opacity-0'
+                                            }`}
+                                            onError={() => handleImageError(image)}
+                                            onLoad={() => handleImageLoad(image)}
+                                            loading="lazy"
+                                        />
+                                        {!imagesLoaded[image] && (
+                                            <div className="absolute inset-0 flex items-center justify-center">
+                                                <div className="w-6 h-6 border-3 border-red-500 border-t-transparent rounded-full animate-spin"></div>
+                                            </div>
+                                        )}
+                                    </div>
                                 </button>
                             ))}
                         </div>
@@ -133,13 +163,23 @@ function Projects() {
                             <Link key={id} to={`/projects/${id}`} className="group">
                                 <div>
                                     <div className="bg-white rounded-lg shadow-lg overflow-hidden outline outline-2 outline-gray-400 group-hover:outline-red-500 transition-all duration-300">
-                                        <img 
-                                            src={getImagePath(project.images[0])}
-                                            alt={project.title}
-                                            className="w-full h-48 object-cover"
-                                            onError={() => handleImageError(project.images[0])}
-                                            loading="lazy"
-                                        />
+                                        <div className="relative w-full h-48 bg-gray-100">
+                                            <img 
+                                                src={getImagePath(project.images[0])}
+                                                alt={project.title}
+                                                className={`w-full h-48 object-cover transition-opacity duration-300 ${
+                                                    imagesLoaded[project.images[0]] ? 'opacity-100' : 'opacity-0'
+                                                }`}
+                                                onError={() => handleImageError(project.images[0])}
+                                                onLoad={() => handleImageLoad(project.images[0])}
+                                                loading="lazy"
+                                            />
+                                            {!imagesLoaded[project.images[0]] && (
+                                                <div className="absolute inset-0 flex items-center justify-center">
+                                                    <div className="w-6 h-6 border-3 border-red-500 border-t-transparent rounded-full animate-spin"></div>
+                                                </div>
+                                            )}
+                                        </div>
                                     </div>
                                     <div className="text-sm mt-2">
                                         <h3 className="font-medium text-gray-700 mt-4 group-hover:text-red-500 transition-colors duration-300">

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import logo from './../assets/images/logo.jpeg';
+import logo from './../assets/images/main-logo.png';
 import { useLanguage } from '../context/LanguageContext';
 import { translations as enTranslations } from '../translations/en';
 import { translations as idTranslations } from '../translations/id';

@@ -31,7 +31,7 @@ export const translations = {
     },
     interiorDesign: {
       title: "Interior Design",
-      description: "Our team created harmonious, user-centric spaces through 3D visualization, space planning, material curation, furniture coordination, and lighting design."
+      description: "Our team creates harmonious, user-centric spaces through 3D visualization, space planning, material curation, furniture coordination, and lighting design."
     },
     construction: {
       title: "General Constructions",
@@ -62,7 +62,7 @@ export const translations = {
         },
         {
           year: "2024 - Present",
-          description: "Evolved into a full service general construction firm, delivering excellent solutions nationwide, and trusted as a humble yet impactful construction firm"
+          description: "Grow into a full service general construction firm, delivering excellent solutions nationwide, and trusted as a humble yet impactful construction firm"
         }
       ]
     },
@@ -81,8 +81,8 @@ export const translations = {
             "Deliver high-quality constructing solutions",
             "Continuously improve skills and technology to stay ahead in the industry",
             "Foster long term client relationship",
-            "Provides beautiful or robust designs",
-            "Deadline and goal oriented"
+            "Developing innovative designs that balance beauty and functionality",
+            "Goal-oriented approach with punctual delivery"
           ]
         }
       ]
