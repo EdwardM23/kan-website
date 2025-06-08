@@ -37,7 +37,9 @@ function Header() {
           <a href="/projects" className={`font-medium transition-colors duration-300 ${isScrolled ? 'text-gray-800 hover:text-gray-600' : 'text-white hover:text-white'}`}>
             {translations.nav.projects}
           </a>
-          {/* <a href="#contact" className={`font-medium transition-colors duration-300 ${isScrolled ? 'text-gray-800 hover:text-gray-600' : 'text-white hover:text-white'}`}>Contact</a> */}
+          <a href="/contact-us" className={`font-medium transition-colors duration-300 ${isScrolled ? 'text-gray-800 hover:text-gray-600' : 'text-white hover:text-white'}`}>
+            {translations.nav.contact}
+          </a>
           <button 
             onClick={toggleLanguage}
             className={`flex items-center gap-1 px-2 py-1 rounded-full border transition-colors duration-300 ${

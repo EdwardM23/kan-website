@@ -57,8 +57,8 @@ function Projects() {
                         </span>
                     </div>
                     <div className="space-y-4">
-                        <h1 className="text-4xl font-bold">{translations.projects.title}</h1>
-                        <p className="text-lg text-gray-700 leading-relaxed">
+                        <h1 className="text-3xl font-bold">{translations.projects.title}</h1>
+                        <p className="leading-relaxed">
                             {translations.projects.description}
                         </p>
                     </div>

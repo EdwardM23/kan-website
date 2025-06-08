@@ -3,7 +3,7 @@ export const translations = {
     aboutUs: "Tentang Kami",
     projects: "Proyek",
     services: "Layanan",
-    contact: "Kontak"
+    contact: "Kontak Kami"
   },
   hero: {
     title: "Karya Artistika Nusa Indo",
@@ -111,5 +111,19 @@ export const translations = {
       title: "Tertarik untuk berkolaborasi?",
       button: "Hubungi Kami →"
     }
+  },
+  contact: {
+    title: "Hubungi Kami",
+    formTitle: "Kirim pesan kepada kami",
+    infoTitle: "Informasi Kontak",
+    location: "Lokasi Kami",
+    name: "Nama Anda",
+    email: "Email Anda",
+    message: "Pesan Anda",
+    sendButton: "Kirim Pesan",
+    address: "Alamat",
+    phone: "Telepon",
+    whatsappButton: "Chat di WhatsApp",
+    description: "Jika Anda memiliki pertanyaan, jangan ragu untuk menghubungi kami melalui telepon, pesan teks, email, formulir di bawah ini, atau bahkan media sosial!"
   }
 }; 

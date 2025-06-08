@@ -6,6 +6,7 @@ import { Routes, Route } from 'react-router-dom';
 import Projects from './pages/Projects';
 import ProjectDetail from './pages/ProjectDetail';
 import AboutUs from './pages/AboutUs';
+import Contact from './pages/Contact';
 import { LanguageProvider } from './context/LanguageContext';
 import { useLanguage } from './context/LanguageContext';
 import { translations as enTranslations } from './translations/en';
@@ -207,6 +208,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/:id" element={<ProjectDetail />} />
           <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/contact-us" element={<Contact />} />
         </Routes>
         <Footer />
       </div>

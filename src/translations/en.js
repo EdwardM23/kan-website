@@ -3,7 +3,7 @@ export const translations = {
     aboutUs: "About Us",
     projects: "Projects",
     services: "Services",
-    contact: "Contact"
+    contact: "Contact Us"
   },
   hero: {
     title: "Karya Artistika Nusa Indo",
@@ -111,5 +111,19 @@ export const translations = {
       title: "Interested in a collaboration?",
       button: "Contact Us →"
     }
+  },
+  contact: {
+    title: "Contact Us",
+    formTitle: "Send us a message",
+    infoTitle: "Contact Information",
+    location: "Our Location",
+    name: "Your Name",
+    email: "Your Email",
+    message: "Your Message",
+    sendButton: "Send Message",
+    address: "Address",
+    phone: "Phone",
+    whatsappButton: "Chat on WhatsApp",
+    description: "If you have any questions, please feel free to get in touch with us via phone, text, email, the form below or even social media!"
   }
 }; 
