@@ -118,7 +118,7 @@ function AboutUs() {
               {translations.aboutUs.contact.title}
             </h2>
             <a 
-              href="/contact"
+              href="/contact-us"
               className="w-full md:w-auto inline-block bg-black text-white px-6 md:px-8 py-3 rounded-lg font-medium
                       transform transition-all duration-300 text-center
                       hover:scale-105 hover:shadow-lg
