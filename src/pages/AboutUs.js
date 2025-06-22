@@ -33,14 +33,14 @@ function AboutUs() {
         <div className="grid grid-cols-3 gap-6 mt-4">
           <div className="col-span-1">
             <img 
-              src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg" 
+              src={require(`../assets/images/projects/projects-enchanting_valley.webp`)}
               alt="Team meeting in modern office" 
               className="w-full h-64 object-cover rounded-lg shadow-lg"
             />
           </div>
           <div className="col-span-2">
             <img 
-              src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg" 
+              src={require(`../assets/images/projects/projects-teazzi.webp`)}
               alt="Architects discussing blueprints" 
               className="w-full h-64 object-cover rounded-lg shadow-lg"
             />

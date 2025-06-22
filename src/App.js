@@ -58,7 +58,7 @@ function HomePage() {
             {clientsData.clients.map((client) => (
               <img 
                 key={client.id}
-                src={client.logo}
+                src={require(`./assets/images/${client.logo}`)}
                 alt={client.logo} 
                 className="h-16 w-auto mx-auto filter transition-all duration-300"
               />
@@ -91,11 +91,11 @@ function HomePage() {
           </div>
           <div className="mt-8 relative">
             <div className="flex overflow-x-auto space-x-6 pb-4">
-              <img src="https://placehold.co/600x400" alt="Project 1" className="h-64 w-96 object-cover rounded-lg flex-shrink-0" />
-              <img src="https://placehold.co/600x400" alt="Project 2" className="h-64 w-96 object-cover rounded-lg flex-shrink-0" />
-              <img src="https://placehold.co/600x400" alt="Project 3" className="h-64 w-96 object-cover rounded-lg flex-shrink-0" />
-              <img src="https://placehold.co/600x400" alt="Project 4" className="h-64 w-96 object-cover rounded-lg flex-shrink-0" />
-              <img src="https://placehold.co/600x400" alt="Project 5" className="h-64 w-96 object-cover rounded-lg flex-shrink-0" />
+              <img src={require(`./assets/images/projects/projects-enchanting_valley.webp`)} alt="Project 1" className="h-64 w-96 object-cover rounded-lg flex-shrink-0" />
+              <img src={require(`./assets/images/projects/projects-lamala.webp`)} alt="Project 2" className="h-64 w-96 object-cover rounded-lg flex-shrink-0" />
+              <img src={require(`./assets/images/projects/projects-simetri.webp`)} alt="Project 3" className="h-64 w-96 object-cover rounded-lg flex-shrink-0" />
+              <img src={require(`./assets/images/projects/projects-teazzi.webp`)} alt="Project 4" className="h-64 w-96 object-cover rounded-lg flex-shrink-0" />
+              <img src={require(`./assets/images/projects/projects-ziel.webp`)} alt="Project 5" className="h-64 w-96 object-cover rounded-lg flex-shrink-0" />
             </div>
           </div>
         </div>

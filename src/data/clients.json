@@ -2,33 +2,33 @@
   "clients": [
     {
       "id": 1,
-      "name": "Chatime",
-      "logo": "https://placehold.co/600x200"
+      "name": "Foodhall",
+      "logo": "logo-foodhall.jpg"
     },
     {
       "id": 2,
-      "name": "Starbucks",
-      "logo": "https://placehold.co/600x200"
+      "name": "Teazzi",
+      "logo": "logo-teazzi.png"
     },
     {
       "id": 3,
-      "name": "footlocker",
-      "logo": "https://placehold.co/600x200"
+      "name": "Foodhall",
+      "logo": "logo-foodhall.jpg"
     },
     {
       "id": 4,
-      "name": "madam tan",
-      "logo": "https://placehold.co/600x200"
+      "name": "Teazzi",
+      "logo": "logo-teazzi.png"
     },
     {
       "id": 5,
-      "name": "muji",
-      "logo": "https://placehold.co/600x200"
+      "name": "Foodhall",
+      "logo": "logo-foodhall.jpg"
     },
     {
       "id": 6,
-      "name": "payless",
-      "logo": "https://placehold.co/600x200"
-    }    
+      "name": "Teazzi",
+      "logo": "logo-teazzi.png"
+    }
   ]
 } 
