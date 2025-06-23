@@ -23,7 +23,7 @@ function HomePage() {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80')"
+            backgroundImage: "url(" + require('./assets/images/hero-bg.webp') + ")"
           }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-50">
@@ -148,7 +148,7 @@ function HomePage() {
                     icon.classList.toggle('rotate-180');
                   }}
                 >
-                  <span className="font-semibold">{translations.services.interiorDesign.title}</span>
+                  <span className="font-semibold text-left">{translations.services.interiorDesign.title}</span>
                   <div className="h-[2px] bg-red-500 flex-grow mx-2"></div>
                   <svg id="construction-icon" className="w-6 h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -175,7 +175,7 @@ function HomePage() {
                     icon.classList.toggle('rotate-180');
                   }}
                 >
-                  <span className="font-semibold">{translations.services.construction.title}</span>
+                  <span className="font-semibold text-left">{translations.services.construction.title}</span>
                   <div className="h-[2px] bg-red-500 flex-grow mx-2"></div>
                   <svg id="renovation-icon" className="w-6 h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />

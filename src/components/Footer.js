@@ -46,22 +46,20 @@ function Footer() {
             {/* Right side - Other sections */}
             <div className="md:w-1/3 grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
               <div>
-                <h3 className="text-xl mb-4 text-red-500">Services</h3>
+                <h3 className="text-xl mb-4 text-red-500">Menus</h3>
                 <ul className="text-gray-400">
-                  <li className="mb-2">Interior Design</li>
-                  <li className="mb-2">General Construction</li>
-                  <li className="mb-2">Renovation</li>
-                  <li className="mb-2">Project Management</li>
+                  <li className="mb-2"><a href="/about-us" className="hover:text-black">About Us</a></li>
+                  <li className="mb-2"><a href="/projects" className="hover:text-black">Projects</a></li>
+                  <li className="mb-2"><a href="/contact-us" className="hover:text-black">Contact Us</a></li>
                 </ul>
               </div>
 
               <div>
-                <h3 className="text-xl mb-4 text-red-500">Quick Links</h3>
+                <h3 className="text-xl mb-4 text-red-500">Social</h3>
                 <ul className="text-gray-400">
-                  <li className="mb-2">About Us</li>
-                  <li className="mb-2">Projects</li>
-                  <li className="mb-2">Testimonials</li>
-                  <li className="mb-2">Contact Us</li>
+                  <li className="mb-2">Facebook</li>
+                  <li className="mb-2">Instagram</li>
+                  <li className="mb-2">Twitter</li>
                 </ul>
               </div>
             </div>

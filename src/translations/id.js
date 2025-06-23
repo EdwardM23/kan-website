@@ -6,7 +6,7 @@ export const translations = {
     contact: "Kontak Kami"
   },
   hero: {
-    title: "Karya Artistika Nusa Indo",
+    title: "Karya Artistika Nusaindo",
     subtitle: "Wujudkan impian Anda menjadi kenyataan!",
     description: "Kami memberikan hasil kerja dan keahlian yang luar biasa sesuai dengan kebutuhan Anda, mari kita bangun visi luar biasa Anda menjadi kenyataan bersama!",
     contactButton: "Hubungi Kami →"
