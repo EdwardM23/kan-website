@@ -65,14 +65,14 @@ function Projects() {
                 </div>
                 <div className="relative mb-12">
                     <div className="overflow-hidden rounded-lg shadow-lg">
-                        <div className="flex transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${currentImageIndex * 100}%)` }}>
+                        <div className="flex transition-transform duration-400 ease-in" style={{ transform: `translateX(-${currentImageIndex * 100}%)` }}>
                             {project.images?.map((image, index) => (
                                 <div key={index} className="w-full flex-shrink-0">
-                                    <div className="relative w-full h-96 bg-gray-100">
+                                    <div className="relative w-full h-[36rem] bg-gray-100">
                                         <img 
                                             src={image}
                                             alt={`${project.title} - Image ${index + 1}`}
-                                            className={`w-full h-96 object-cover transition-opacity duration-300 ${
+                                            className={`w-full h-[36rem] object-cover transition-opacity duration-300 ${
                                                 imagesLoaded[image] ? 'opacity-100' : 'opacity-0'
                                             }`}
                                             onError={() => handleImageError(image)}

@@ -35,14 +35,15 @@ function HomePage() {
                   <p className="text-lg mb-8 max-w-2xl text-black">
                     {translations.hero.description}
                   </p>
-                  <button 
+                  <a
+                    href="/contact-us"
                     className="bg-white text-black px-8 py-3 rounded-lg font-medium 
                               transform transition-all duration-300 
                               hover:scale-105 hover:shadow-lg 
-                              active:scale-95 active:shadow-md"
+                              active:scale-95 active:shadow-md inline-block text-center"
                   >
                     {translations.hero.contactButton}
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -121,7 +122,7 @@ function HomePage() {
                     icon.classList.toggle('rotate-180');
                   }}
                 >
-                  <span className="font-semibold">{translations.services.fitOut.title}</span>
+                  <span className="font-semibold text-left">{translations.services.fitOut.title}</span>
                   <div className="h-[2px] bg-red-500 flex-grow mx-2"></div>
                   <svg id="interior-icon" className="w-6 h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />

@@ -164,9 +164,9 @@ export const projectData = {
         ]
     },
     'teazzi_bxc': {
-        title: 'Teazzi BXC',
+        title: 'Teazzi Bintaro Jaya Xchange',
         date: 'December 2023',
-        location: 'BXC',
+        location: 'Bintaro Jaya Xchange Mall',
         category: 'Residential',
         description: 'An elegant extension to a luxury residence, seamlessly blending modern architecture with existing structures.',
         images: [
@@ -180,7 +180,6 @@ export const projectData = {
             'https://ik.imagekit.io/imgkan/projects/teazzi-bxc/Teazzi%20-%20BXC-16.webp?updatedAt=1750567844695',
             'https://ik.imagekit.io/imgkan/projects/teazzi-bxc/Teazzi%20-%20BXC-01.webp?updatedAt=1750567840028',
             'https://ik.imagekit.io/imgkan/projects/teazzi-bxc/Teazzi%20-%20BXC-03.webp?updatedAt=1750567840805',
-            'https://ik.imagekit.io/imgkan/projects/teazzi-bxc/Teazzi%20-%20BXC-04.webp?updatedAt=1750567840405',
         ],
         details: [
             'Architectural extension',
@@ -213,7 +212,7 @@ export const projectData = {
     'teazzi_lw': {
         title: 'Teazzi Living World',
         date: 'December 2023',
-        location: 'Alam Sutera',
+        location: 'Kota Wisata Cibubur',
         category: 'Residential',
         description: 'An elegant extension to a luxury residence, seamlessly blending modern architecture with existing structures.',
         images: [
