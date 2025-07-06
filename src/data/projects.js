@@ -283,5 +283,52 @@ export const projectData = {
             'Landscape integration',
             'Smart home features'
         ]
-    },   
+    },
+    'teazzi_gancit': {
+        title: 'Teazzi Gandaria City',
+        date: 'December 2023',
+        location: 'Gandaria City',
+        category: 'Residential',
+        description: '',
+        images: [
+            'https://ik.imagekit.io/imgkan/projects/teazzi-gancit/01%20Teazzi%20-%20Gancit-11.webp?updatedAt=1751821975278',
+            'https://ik.imagekit.io/imgkan/projects/teazzi-gancit/Teazzi%20-%20Gancit-10.webp?updatedAt=1751821974316',
+            'https://ik.imagekit.io/imgkan/projects/teazzi-gancit/Teazzi%20-%20Gancit-08.webp?updatedAt=1751821974639',
+            'https://ik.imagekit.io/imgkan/projects/teazzi-gancit/Teazzi%20-%20Gancit-04.webp?updatedAt=1751821974675',
+            'https://ik.imagekit.io/imgkan/projects/teazzi-gancit/Teazzi%20-%20Gancit-05.webp?updatedAt=1751821974125',
+            'https://ik.imagekit.io/imgkan/projects/teazzi-gancit/Teazzi%20-%20Gancit-02.webp?updatedAt=1751821974135',
+            'https://ik.imagekit.io/imgkan/projects/teazzi-gancit/Teazzi%20-%20Gancit-03.webp?updatedAt=1751821973499',
+            'https://ik.imagekit.io/imgkan/projects/teazzi-gancit/Teazzi%20-%20Gancit-07.webp?updatedAt=1751821975219',
+        ],
+        details: [
+            'Architectural extension',
+            'High-end finishes',
+            'Landscape integration',
+            'Smart home features'
+        ]
+    },
+    'mmn_pim': {
+        title: 'No. 25 Minced Meat Noodles',
+        date: 'December 2023',
+        location: 'Puri Indah Mall',
+        category: 'Residential',
+        description: '',
+        images: [
+            'https://ik.imagekit.io/imgkan/projects/mmn-pim/01%20MMN%20-%20PIN-01.webp?updatedAt=1751821277545',
+            'https://ik.imagekit.io/imgkan/projects/mmn-pim/MMN%20-%20PIN-02.webp?updatedAt=1751821277880',
+            'https://ik.imagekit.io/imgkan/projects/mmn-pim/MMN%20-%20PIN-04.webp?updatedAt=1751821277131',
+            'https://ik.imagekit.io/imgkan/projects/mmn-pim/MMN%20-%20PIN-05.webp?updatedAt=1751821277979',
+            'https://ik.imagekit.io/imgkan/projects/mmn-pim/MMN%20-%20PIN-06.webp?updatedAt=1751821277525',
+            'https://ik.imagekit.io/imgkan/projects/mmn-pim/MMN%20-%20PIN-11.webp?updatedAt=1751821277354',
+            'https://ik.imagekit.io/imgkan/projects/mmn-pim/MMN%20-%20PIN-12.webp?updatedAt=1751821276613',
+            'https://ik.imagekit.io/imgkan/projects/mmn-pim/MMN%20-%20PIN-13.webp?updatedAt=1751821277716',
+            'https://ik.imagekit.io/imgkan/projects/mmn-pim/MMN%20-%20PIN-09.webp?updatedAt=1751821278402',
+        ],
+        details: [
+            'Architectural extension',
+            'High-end finishes',
+            'Landscape integration',
+            'Smart home features'
+        ]
+    },
 }; 
